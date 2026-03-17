@@ -1,0 +1,272 @@
+html{
+		height:100%;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background: #ffffff url(https://s3-sa-east-1.amazonaws.com/ong-imas-cdn/site-under-construction/images/home-bg-min-low.jpg) no-repeat center center fixed;
+	}
+
+	.page body{
+		background: -moz-radial-gradient(ellipse at center, rgba(0,0,0,0) 7%, rgba(0,0,0,0) 80%, rgba(0,0,0,0.23) 100%);
+		background: -webkit-radial-gradient(ellipse at center, rgba(0,0,0,0) 7%, rgba(0,0,0,0) 80%, rgba(0,0,0,0.23) 100%);
+		background: radial-gradient(ellipse at center, rgba(0,0,0,0) 7%, rgba(0,0,0,0) 80%, rgba(0,0,0,0.23) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#3b000000',GradientType=1 );
+	}
+
+
+	#uc-imas-page{
+		background-color: rgba(0,0,0,0);
+	}
+
+	#uc-imas-logo {
+		width: 230px;
+	}
+	
+	.flexbox #uc-imas-page{
+		align-items: center;
+		justify-content: center;
+	}
+
+	.uc-imas body{
+		background: transparent;
+	}
+
+	.uc-imas body, .uc-imas body p{
+        font-family: Helvetica, Arial, sans-serif;
+		font-weight: 400;
+        font-size: 20px;
+        line-height: 1.50em;
+        color:#ffffff;
+    }
+
+	::-webkit-input-placeholder {
+		font-family:Helvetica, Arial, sans-serif;
+		font-weight: 400;
+	}
+
+	::-moz-placeholder {
+		font-family:Helvetica, Arial, sans-serif;
+		font-weight: 400;
+	}
+
+	:-ms-input-placeholder {
+		font-family:Helvetica, Arial, sans-serif;
+		font-weight: 400;
+	}
+
+	:-moz-placeholder {
+		font-family:Helvetica, Arial, sans-serif;
+		font-weight: 400;
+	}
+
+    .uc-imas h1, .uc-imas h2, .uc-imas h3, .uc-imas h4, .uc-imas h5, .uc-imas h6{
+        font-family: 'Pacifico';
+        color:#ffffff;
+    }
+
+	#uc-imas-headline {
+		/*font-family: 'Pacifico';*/
+		/*font-weight: 400;*/
+		/*font-size: 48px;*/
+		/*color:#ffffff;*/
+		line-height: 1.00em;
+		font-family: 'Saira Extra Condensed',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+		color: #fff!important;
+    	text-shadow: 1px 1px #2a6bb7;
+    	text-transform: uppercase;
+    	font-weight: 700;
+    	font-size: 6rem;
+    	line-height: 5.5rem;
+    	margin-bottom: 0px;
+	}
+	
+
+	#uc-imas-headline .text-primary {
+		color: #2a6bb7!important;
+    	text-shadow: 1px 1px #adb5bd;
+	}
+		
+
+	.subheading {
+	    text-transform: uppercase;
+	    font-weight: 500;
+	    font-family: 'Saira Extra Condensed',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+	    /*font-size: 1.5rem;*/
+	    font-size: 2.5rem;
+	}
+
+	@media (min-width: 992px) {
+
+		.subheading {
+		    color: #fff!important;
+		    text-shadow: 1px 1px #2a6bb7;
+		    letter-spacing: 6px;
+		}
+
+	}
+
+	.mb-5, .my-5 {
+    	margin-bottom: 3rem!important;
+	}
+	.mt-5, .my-5 {
+    	margin-top: 3rem!important;
+	}
+
+
+	#uc-imas-description {
+		text-transform: uppercase;
+	    font-weight: 500;
+	    color:#fff;
+	    margin-bottom: 30px;
+	    font-size: 20px;
+	    /*font-family: 'Saira Extra Condensed',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';		*/
+	}
+
+
+	.uc-imas button{
+        font-family: Helvetica, Arial, sans-serif;
+		font-weight: 400;
+    }
+	
+    .uc-imas a, .uc-imas a:visited, .uc-imas a:hover, .uc-imas a:active{
+		color: #ffffff;
+	}
+
+	#uc-imas-socialprofiles a {
+	  color: #ffffff;
+	}
+	.uc-imas .btn-primary,
+	.uc-imas .btn-primary:focus,
+	.gform_button,
+	#mc-embedded-subscribe, .submit-button {
+		color: black;
+		text-shadow: 0 -1px 0 rgba(255,255,255,0.3);
+		background-color: #ffffff;
+		background-image: -moz-linear-gradient(to bottom,#ffffff,#d9d9d9);
+		background-image: -ms-linear-gradient(to bottom,#ffffff,#d9d9d9);
+		background-image: -webkit-linear-gradient(to bottom,#ffffff,#d9d9d9);
+		background-image: -o-linear-gradient(to bottom,#ffffff,#d9d9d9);
+		background-image: linear-gradient(to bottom,#ffffff,#d9d9d9);
+		background-repeat: repeat-x;
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#d9d9d9', GradientType=0);
+		border-color: #d9d9d9 #d9d9d9 #b3b3b3;
+		border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+		*background-color: #d9d9d9;
+		filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+	}
+
+	.uc-imas .btn-primary:hover,
+	.uc-imas .btn-primary:active,
+	.uc-imas .btn-primary.active,
+	.uc-imas .btn-primary.disabled,
+	.uc-imas .btn-primary[disabled],
+	.uc-imas .btn-primary:focus:hover,
+	.uc-imas .btn-primary:focus:active,
+	.uc-imas .btn-primary:focus.active,
+	.uc-imas .btn-primary:focus.disabled,
+	.uc-imas .btn-primary:focus[disabled],
+	#mc-embedded-subscribe:hover,
+	#mc-embedded-subscribe:active,
+	#mc-embedded-subscribe.active,
+	#mc-embedded-subscribe.disabled,
+	#mc-embedded-subscribe[disabled] {
+		background-color: #d9d9d9;
+		*background-color: #cccccc;
+	}
+
+	.uc-imas .btn-primary:active,
+	.uc-imas .btn-primary.active,
+	.uc-imas .btn-primary:focus:active,
+	.uc-imas .btn-primary:focus.active,
+	.gform_button:active,
+	.gform_button.active,
+	#mc-embedded-subscribe:active,
+	#mc-embedded-subscribe.active {
+		background-color: #bfbfbf;
+	}
+
+	.form-control,
+	.progress {
+		background-color: rgba(255, 255, 255, 0.85);
+	}
+
+	#uc-imas-progressbar span,
+	.countdown_section {
+		color: black;
+		text-shadow: 0 -1px 0 rgba(255,255,255,0.3);
+	}
+
+	.uc-imas .btn-primary:hover,
+	.uc-imas .btn-primary:active {
+		color: black;
+		text-shadow: 0 -1px 0 rgba(255,255,255,0.3);
+		border-color: #e6e6e6;
+	}
+
+	.uc-imas input[type='text']:focus {
+		-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(217,217,217,0.6);
+		-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(217,217,217,0.6);
+		box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(217,217,217,0.6);
+	}
+    
+    #uc-imas-content {
+		display: none;
+		max-width: 600px;
+		background-color: #000000;
+		-webkit-border-radius: 2px;
+		border-radius: 2px;
+		-moz-background-clip: padding;
+		-webkit-background-clip: padding-box;
+		background-clip: padding-box;
+		background-color:transparent;
+	}
+    
+	.uc-imas .progress-bar,
+	.countdown_section,
+	.uc-imas .btn-primary,
+	.uc-imas .btn-primary:focus,
+	.gform_button {
+		background-image: none;
+		text-shadow: none;
+	}
+
+	.uc-imas input,
+	.uc-imas input:focus {
+		-webkit-box-shadow: none !important;
+		box-shadow: none !important;
+	}
+							
+	#uc-imas-page{
+	    background: -moz-radial-gradient(ellipse at center, rgba(0, 0, 0, 0.3) 0%,rgba(0, 0, 0, 0.2) 37%,rgba(0,0,0,0) 68%,rgba(0,0,0,0) 100%);
+	    background: -webkit-radial-gradient(ellipse at center, rgba(0, 0, 0, 0.3) 0%,rgba(0, 0, 0, 0.2) 37%,rgba(0,0,0,0) 68%,rgba(0,0,0,0) 100%);
+	    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.3) 0%,rgba(0, 0, 0, 0.2) 37%,rgba(0,0,0,0) 68%,rgba(0,0,0,0) 100%);
+	}
+
+	
+
+	#uc-imas-subscribe-btn{
+	    background:transparent;
+	    border: 1px solid #fff !important;
+	    color: #fff;
+	}
+
+	#uc-imas-subscribe-btn:hover{
+	    background: rgba(255,255,255,0.2);
+	    color: #fff;
+	}
+
+	#uc-imas-credit img{
+		margin-left:auto;
+		margin-right:auto;
+		width:125px;
+		    margin-top: -4px;
+	}
+
+	#uc-imas-credit {
+		font-size:11px;
+	}
+
+#uc-imas-newsletter-message	{
+	display: none;
+}
